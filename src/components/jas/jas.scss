@@ -1,0 +1,87 @@
+@import "../../app.scss";
+.jas{
+    height: calc(100vh - 100px);
+    background: linear-gradient(180deg, #15304C,#0B1826);
+    overflow: hidden ;
+    position: relative;
+    //background-image: url("/mario.gif");
+
+    .wrapper{
+        max-width: 1336px;
+        height: 100%;
+        margin: auto;
+
+        .textContainer{
+            width: 50%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 40px;
+
+            @include mobile {
+                height: 50%;
+                width: 100%;
+                gap: 20px;
+                align-items: center;
+                text-align: center;
+              }
+            
+            h2{
+                font-size: 30px;
+                letter-spacing: 10px; 
+            }
+            
+            h1{
+                font-size: 70px;
+                
+                @include mobile {
+                    font-size: 36px;
+                  }
+            }
+        }
+        .buttons{
+            button{
+                padding: 20px;
+                border: 1px solid ;
+                border-radius: 10px;
+                background-color: transparent;
+                color: white;
+                margin-right: 20px;
+                font-weight: 300;
+            }
+            .custom{
+                cursor: pointer;
+            }
+            //   cursor: url("/bmo.jpg") 10px 10px, auto;;}
+        }
+    }
+    .slidingTextContainer{
+        position: absolute;
+        font-size: 30vh;
+        bottom: -120px;
+        white-space: nowrap;
+        opacity: 0.1;
+        width: 50%;
+        margin: 50px;
+        z-index: 0;
+
+    }
+
+    .imageContainer{
+        height: 100%;
+       position: absolute;
+       top:0;
+       right: 0;
+       margin-right: 200px;
+
+       @include mobile {
+        height: 50%;
+        width: 100%;
+        top: unset;
+        bottom: 0;
+      }
+        
+    }
+
+}
