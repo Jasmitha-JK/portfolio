@@ -44,11 +44,11 @@ const Jas = () => {
 				>
 					<motion.h2 variants={textVariants}>JASMITHA JK</motion.h2>
 					<motion.h1 variants={textVariants}>
-						Web developer and Software Engineer
+						Aspiring Software Engineer and UI/UX Designer
 					</motion.h1>
 					<motion.div variants={textVariants} className="buttons">
 						<motion.button variants={textVariants} className="custom" onClick={Services}>
-							See my latest works :)
+							Scroll down to see my latest works :)
 						</motion.button>
 						<motion.button variants={textVariants} onClick={Contact}>
 							Contact me ^ ^
@@ -62,10 +62,10 @@ const Jas = () => {
 				initial="initial"
 				animate="animate"
 			>
-				Depressed Designer and has no will to live :D
+				Motivated Designer and looking forward to improve my skills :)
 			</motion.div>
 			<div className="imageContainer">
-				<img src="/file.png" height="800vh" alt="" />
+				<img src="/jashjk.png" height="700vh" alt="" />
 			</div>
 		</div>
 	);

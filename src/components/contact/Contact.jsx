@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
 import "./contact.scss";
 import { animate, motion } from "framer-motion";
-import emailjs from "@emailjs/browser";
+// import emailjs from "@emailjs/browser";
 
 const variants = {
 	initial: {
@@ -49,7 +49,7 @@ const Contact = () => {
 			whileInView="animate"
 		>
 			<motion.div className="textContainer" variants={variants}>
-				<motion.h1 variants={variants}> wanna work together 🐋</motion.h1>
+				<motion.h1 variants={variants}> wanna work together ? 🐋</motion.h1>
 				<motion.div className="item" variants={variants}>
 					<h2>Mail</h2>
 					<span>jashjk82@gmail.com</span>
@@ -63,7 +63,7 @@ const Contact = () => {
 					<span>8073422691</span>
 				</motion.div>
 			</motion.div>
-			<div className="formContainer">
+			{/* <div className="formContainer">
 				<form ref={ref} onSubmit={sendEmail}>
 					<input type="text" required placeholder="Name" name="name"/>
 					<input type="email" required placeholder="E-mail" name="email"/>
@@ -73,7 +73,7 @@ const Contact = () => {
 					{success &&  "Success"}
 
 				</form>
-			</div>
+			</div> */}
 		</motion.div>
 	);
 };

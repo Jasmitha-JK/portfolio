@@ -23,28 +23,22 @@ const items = [
 	},
 	{
 		id: 4,
-		title: "Disaster relief webapp",
-		img: "",
-		desc: "collects information like flood maps from satellites and uses smarts like image recognition to figure out where help is most needed. Then, it suggests how to send resources efficiently.",
-	},
-	{
-		id: 5,
-		title: "a tribute to my beloved",
-		img: "./",
-		desc: "in progress of making an app that represents Balaji and his values. Everyone should know him",
+		title: "Tracking Product design",
+		img: "./trn.png",
+		desc: "Designed a product for TrackNerd which is the iCompass AIS-140 Tracker for Fleet management done during my internship.",
 	},
 	{
 		id: 6,
-		title: "Music app",
-		img: "",
-		desc: "bro fucking leave me alone and give me enough time to cook.",
+		title: "Internship Flyer design ",
+		img: "./vehicletrack.png",
+		desc: "Designed many flyers like these to improve the marketing and increase customer sales. ",
 	},
-	{
-		id: 7,
-		title: "flutter based app",
-		img: "",
-		desc: "collects information like flood maps from satellites and uses smarts like image recognition to figure out where help is most needed. Then, it suggests how to send resources efficiently.",
-	},
+	// {
+	// 	id: 7,
+	// 	title: "flutter based app",
+	// 	img: "",
+	// 	desc: "collects information like flood maps from satellites and uses smarts like image recognition to figure out where help is most needed. Then, it suggests how to send resources efficiently.",
+	// },
 ];
 
 const Single = ({ item }) => {

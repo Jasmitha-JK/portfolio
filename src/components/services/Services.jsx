@@ -49,7 +49,7 @@ const Services = () => {
 				>
 					<h2>Software Engineer</h2>
 					<p>Possessing a strong foundation in computer science and programming, I excel in designing, developing, and testing robust applications. With problem-solving skills and a commitment to delivering high-quality code.</p>
-					<button >Go</button>
+					<button > Intermediate</button>
 				</motion.div>
 				<motion.div
 					className="box"
@@ -57,7 +57,7 @@ const Services = () => {
 				>
 					<h2>UI/UX development</h2>
 					<p>intuitive and visually appealing digital products and services. understanding user needs, behaviors, and motivations to design interfaces that are both functional and enjoyable.</p>
-					<button>Go</button>
+					<button>Professional</button>
 				</motion.div>
 
 				<motion.div
@@ -66,7 +66,7 @@ const Services = () => {
 				>
 					<h2>Front End developer</h2>
 					<p>With a deep understanding of HTML, CSS, and JavaScript, and react framework, create intuitive interfaces that are visually appealing, responsive, and performant across various devices</p>
-					<button>Go</button>
+					<button>Intermediate</button>
 				</motion.div>
 
 
@@ -76,7 +76,7 @@ const Services = () => {
 				>
 					<h2>ML Enthusiast</h2>
 					<p>A passionate advocate for the potential of machine learning, constantly exploring cutting-edge algorithms and techniques.  I am driven to uncover hidden patterns and build intelligent systems.</p>
-					<button>Go</button>
+					<button>Studying</button>
 				</motion.div>
 			</motion.div>
 		</motion.div>
