@@ -65,7 +65,7 @@ const Jas = () => {
 				Motivated Designer and looking forward to improve my skills :)
 			</motion.div>
 			<div className="imageContainer">
-				<img src="/jashjk.png" height="700vh" alt="" />
+				<img src="/chill.png" height="700vh" alt="" />
 			</div>
 		</div>
 	);
