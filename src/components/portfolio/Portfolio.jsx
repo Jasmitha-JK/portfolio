@@ -21,18 +21,18 @@ const items = [
 		img: "./dr.png",
 		desc: "Without using existing frameworks like Tensorflow, used Numpy and Pandas core libraries for constructing handwritten digit recognition.",
 	},
-	{
-		id: 4,
-		title: "Tracking Product design",
-		img: "./trn.png",
-		desc: "Designed a product for TrackNerd which is the iCompass AIS-140 Tracker for Fleet management done during my internship.",
-	},
-	{
-		id: 6,
-		title: "Internship Flyer design ",
-		img: "./vehicletrack.png",
-		desc: "Designed many flyers like these to improve the marketing and increase customer sales. ",
-	},
+	// {
+	// 	id: 4,
+	// 	title: "Multi Modal Lung Cancer Detection",
+	// 	img: "./trn.png",
+	// 	desc: "Designed a product for TrackNerd which is the iCompass AIS-140 Tracker for Fleet management done during my internship.",
+	// },
+	// {
+	// 	id: 6,
+	// 	title: "Internship Flyer design ",
+	// 	img: "./vehicletrack.png",
+	// 	desc: "Designed many flyers like these to improve the marketing and increase customer sales. ",
+	// },
 	// {
 	// 	id: 7,
 	// 	title: "flutter based app",
